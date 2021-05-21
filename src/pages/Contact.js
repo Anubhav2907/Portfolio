@@ -1,7 +1,12 @@
 import React from 'react';
+import ContactSection from '../components/ContactSection';
+import Map from '../components/Map';
 
-function Contact() {
-  return <div>Contact Me</div>;
+export default function Contact() {
+  return (
+    <>
+      <ContactSection />
+      <Map />
+    </>
+  );
 }
-
-export default Contact;

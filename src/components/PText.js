@@ -9,9 +9,6 @@ const PStyle = styled.div`
   @media only screen and (max-width: 768px) {
     font-size: 1.4rem;
   }
-  p {
-    color: #000000;
-  }
 `;
 
 export default function PText({ children }) {

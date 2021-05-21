@@ -1,12 +1,20 @@
 import React from 'react';
-import MainSection from '../components/MainSection';
+import AboutSection from '../components/AboutSection';
+import ServicesSection from '../components/ServicesSection';
+import ProjectsSection from '../components/ProjectsSection';
+import TestimonialsSection from '../components/TestimonialsSection';
+import ContactBanner from '../components/ContactBanner';
+import HeroSection from '../components/HeroSection';
 
-function Home() {
+export default function Home() {
   return (
     <div>
-      <MainSection />
+      <HeroSection />
+      <AboutSection />
+      <ServicesSection />
+      <ProjectsSection />
+      <TestimonialsSection />
+      <ContactBanner />
     </div>
   );
 }
-
-export default Home;

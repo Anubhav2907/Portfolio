@@ -1,0 +1,15 @@
+.button {
+    font-size: 2.2rem;
+    background-color: gray;
+    padding: 0.7em 2em;
+    border: 2px solid var(--gray-1);
+    border-radius: 8px;
+    display: inline-block;
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .button {
+        font-size: 1.8rem;
+    }
+}

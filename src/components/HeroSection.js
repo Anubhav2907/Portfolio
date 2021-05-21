@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import MyImg from '../assets/images/main.jpg';
+import HeroImg from '../assets/images/11 (8).jpg';
 import Button from './Button';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
@@ -47,6 +47,7 @@ const HeroStyles = styled.div`
     flex-direction: column;
     gap: 2rem;
     position: absolute;
+
     bottom: 20px;
     width: 50px;
   }
@@ -56,6 +57,7 @@ const HeroStyles = styled.div`
   .hero__scrollDown {
     right: 50px;
   }
+
   .hero__social__indicator,
   .hero__scrollDown {
     width: 50px;
@@ -77,6 +79,7 @@ const HeroStyles = styled.div`
       max-height: 70px;
     }
   }
+
   .hero__social__text {
     ul {
       li {
@@ -91,6 +94,7 @@ const HeroStyles = styled.div`
       }
     }
   }
+
   @media only screen and (max-width: 768px) {
     .hero {
       min-height: 750px;
@@ -153,14 +157,13 @@ export default function HeroSection() {
             <span className="hero__name">Anubhav Singh</span>
           </h1>
           <div className="hero__img">
-            <img src={MyImg} alt="" />
+            <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              Hello there this is Anubhav Singh. A Full Stack Web Developer with
-              a vision to make this web beautiful. I spend my whole day,
-              experimenting with HTML, CSS, and JavaScript; dabbling with React
-              and Redux. I build websites that delight and inform. I do it well.
+            <PText className="text">
+              I am working as a freelance web designer and developer for 4
+              years. I love to design and build new web experiences for the
+              users.
             </PText>
             <Button btnText="see my works" btnLink="/projects" />
           </div>
@@ -173,25 +176,25 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="http://facebook.com/webcifar"
+                    href="https://github.com/Anubhav2907"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    GH
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://twitter.com/webcifar"
+                    href="https://www.linkedin.com/in/anubhav-singh-jadoun-2689621b3/"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    TW
+                    LI
                   </a>
                 </li>
                 <li>
                   <a
-                    href="http://isntagram.com/web_cifar"
+                    href="https://www.instagram.com/anxbhxv/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -200,11 +203,11 @@ export default function HeroSection() {
                 </li>
                 <li>
                   <a
-                    href="http://webcifar.com"
+                    href="mailto:as77jadoun@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    LI
+                    GM
                   </a>
                 </li>
               </ul>

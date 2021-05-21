@@ -23,7 +23,7 @@ const ButtonStyle = styled.div`
 
 export default function Button({
   btnText = 'test',
-  btnLink = 'test',
+  btnLink = '/Anubhav_Resume.pdf',
   outline = false,
 }) {
   return (
